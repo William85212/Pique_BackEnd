@@ -6,7 +6,9 @@ Modèle de script de post-déploiement
  Exemple :      :r .\monfichier.sql								
  Utilisez la syntaxe SQLCMD pour référencer une variable dans le script de post-déploiement.		
  Exemple :      :setvar TableName MyTable							
-               SELECT * FROM [$(TableName)]					
+               SELECT * FROM [$(TableName)]
+			   
+			   add comment test azure
 --------------------------------------------------------------------------------------
 */
 
