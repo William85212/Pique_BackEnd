@@ -9,6 +9,7 @@ Modèle de script de post-déploiement
                SELECT * FROM [$(TableName)]
 			   
 			   add comment test azure
+			   autre comment de test
 --------------------------------------------------------------------------------------
 */
 
